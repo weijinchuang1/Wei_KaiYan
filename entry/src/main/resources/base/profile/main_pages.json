@@ -3,6 +3,8 @@
     "pages/Index",
     "pages/SplashPage",
     "pages/home/HomePage",
-    "pages/find/FindPage"
+    "pages/find/FindPage",
+    "pages/hot/HotPage",
+    "pages/mine/MinePage"
   ]
 }

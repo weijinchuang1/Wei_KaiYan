@@ -1,16 +1,12 @@
-/**
- * 首页
- */
-
 @Entry
 @Component
-export  default struct HomePage {
+export default struct MinePage {
   @State message: string = 'Hello World';
 
   build() {
     RelativeContainer() {
       Text(this.message)
-        .id('HomePageHelloWorld')
+        .id('MinePageHelloWorld')
         .fontSize(50)
         .fontWeight(FontWeight.Bold)
         .alignRules({

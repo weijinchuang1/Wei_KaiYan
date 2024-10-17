@@ -1,3 +1,7 @@
+/**
+ * 发现
+ */
+
 @Entry
 @Component
 export default struct FindPage {
