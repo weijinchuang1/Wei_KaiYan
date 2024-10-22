@@ -1,3 +1,5 @@
+
+
 @Entry
 @Component
 export default struct HotPage {
@@ -6,7 +8,7 @@ export default struct HotPage {
   build() {
     RelativeContainer() {
       Text(this.message)
-        .id('HotPageHelloWorld')
+        .id('MinePageHelloWorld')
         .fontSize(50)
         .fontWeight(FontWeight.Bold)
         .alignRules({

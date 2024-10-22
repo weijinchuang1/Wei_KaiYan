@@ -23,6 +23,7 @@ import axios, {
   } from "@ohos/axios";
 import axiosClient from '../../http/AxiosRequest';
 import HomeViewModel from '../../viewmodel/HomeViewModel';
+import { window } from '@kit.ArkUI';
 
 // let baseUrl = "http://10.161.9.80:7012/"
 let baseUrl = "https://baobab.kaiyanapp.com/"
@@ -32,7 +33,8 @@ const commonHeader: AxiosHeaders = new AxiosHeaders()
 @Component
 export  default struct HomePage {
 
-
+  windowStage: window.WindowStage = AppStorage.get("windowStage") as window.WindowStage;
+  mainWin: window.Window = this.windowStage.getMainWindowSync();
   @State isRefreshing:boolean=false
   @State showState:boolean=false
   @State dataList:HomeModelIssueListItemList[]=[]
