@@ -1,10 +1,12 @@
 import { CommonConstants } from '../constants/CommonConstants';
 import { TabItem } from '../model/Tabltem';
-import FindPage from './find/FindPage';
+
 import HomePage from './home/HomePage';
 import HotPage from './hot/HotPage';
 import MinePage from './mine/MinePage';
 import MainViewModel from '../viewmodel/MainViewModel';
+import { FindPage } from './find/FindPage';
+
 @Entry
 @Component
 struct Index {

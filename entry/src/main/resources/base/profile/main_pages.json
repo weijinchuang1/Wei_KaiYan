@@ -6,5 +6,6 @@
     "pages/find/FindPage",
     "pages/hot/HotPage",
     "pages/mine/MinePage"
+
   ]
 }

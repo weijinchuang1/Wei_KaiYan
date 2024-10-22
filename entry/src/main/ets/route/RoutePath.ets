@@ -6,4 +6,5 @@ export  class RoutePath {
   static readonly Index="pages/Index"//首页
   static readonly HomePage= "pages/home/HomePage"//首页
   static readonly FindPage= "pages/find/FindPage"//发现页
+  static readonly DetailPage = "pages/commonDetail/DetailPage"
 }
