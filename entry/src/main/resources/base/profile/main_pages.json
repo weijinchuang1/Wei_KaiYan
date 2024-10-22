@@ -5,7 +5,7 @@
     "pages/home/HomePage",
     "pages/find/FindPage",
     "pages/hot/HotPage",
-    "pages/mine/MinePage"
-
+    "pages/mine/MinePage",
+    "pages/commonDetail/DetailPage"
   ]
 }
